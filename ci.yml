@@ -1,0 +1,13 @@
+prepare:
+  steps:
+    - command: sudo npm install -g @angular/cli
+    - command: curl -o-
+        https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+test:
+  steps: []
+run:
+  steps:
+    - command: cd angu/
+    - command: source ~/.nvm/nvm.sh
+    - command: nvm use 18.10
+    - command: node server.js
