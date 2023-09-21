@@ -57,6 +57,7 @@ To begin using the PDF Merge Tool, delete the "src" folder in your project folde
 
 Also we need to install some additional libraries for this project:
 Run this command in the terminal 
+
 ```npm install @angular/cdk && npm install pdf-lib```
 
 
