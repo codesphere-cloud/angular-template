@@ -3,7 +3,9 @@ prepare:
     - command: sudo npm install -g @angular/cli
     - command: curl -o-
         https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    - command: source ~/.nvm/nvm.sh
     - command: nvm install 18.10
+    - command: npm install express
 test:
   steps: []
 run:
