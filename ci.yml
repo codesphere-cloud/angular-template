@@ -8,5 +8,4 @@ test:
   steps: []
 run:
   steps:
-    - command: cd angu/
-    - command: node server.js
+    - command: node ./angu/server.js
